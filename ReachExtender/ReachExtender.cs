@@ -2,7 +2,7 @@
 using BepInEx.Configuration;
 
 namespace ReachExtender {
-    [BepInPlugin("Mattdokn.ReachExtender", "ReachExtender", "1.0.1")]
+    [BepInPlugin("Mattdokn.ReachExtender", "ReachExtender", "1.1.0")]
     public class ReachExtenderPlugin : BaseUnityPlugin {
 
         public static ConfigEntry<float> InteractionDistance;
