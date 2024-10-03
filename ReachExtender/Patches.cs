@@ -34,7 +34,7 @@ namespace ReachExtender.Patches {
 
                 if (ball) {
                     ReachExtenderPlugin.Sphere.transform.position = ray.GetPoint(balls.distance);
-                    ReachExtenderPlugin.Sphere.transform.localScale = Vector3.one * ReachExtenderPlugin.SphereCastRadius.Value;
+                    ReachExtenderPlugin.Sphere.transform.localScale = Vector3.one * (ReachExtenderPlugin.SphereCastRadius.Value * 2f);
                 }
             }
 
